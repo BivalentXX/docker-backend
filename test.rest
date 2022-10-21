@@ -1,0 +1,22 @@
+###
+GET http://localhost:3000/items
+
+###
+POST http://localhost:3000/items
+Content-Type: application/json
+
+{"items":
+  [
+    {
+      "name": "item1",
+      "id": 1
+    },
+    {
+      "name": "item2",
+      "id": 2
+    }
+  ]
+}
+
+###
+DELETE http://localhost:3000/items
